@@ -1,0 +1,42 @@
+.fm_checkview {
+    gap: 20px;
+}
+
+.fm_cview_filters {
+    gap: $gap_items_30;
+}
+
+//==========CHAR
+.fn_char_container {
+    .css-1j30m50 {
+        padding: 0;
+        padding-bottom: 0;
+    }
+
+    .apexcharts-canvas,
+    .apexcharts-svg,
+    .apexchartssimplexbar,
+    svg {
+        width: 100% !important;
+    }
+
+    .apexcharts-toolbar {
+        display: none;
+    }
+}
+
+.apexcharts-text tspan {
+    font-size: $fs_S;
+    color: $color_text_gray;
+}
+
+.fm_char_buttons {
+    gap: $gap_items_20;
+    .fm_char_btn {
+        color: $color_text_gray;
+    }
+}
+
+.apexcharts-tooltip{
+    display: none !important;
+}

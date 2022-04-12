@@ -1,0 +1,54 @@
+//Colors
+$bg_color_primary: #F8F9FA;
+$bg_color_secondary: #ffffff;
+$bg_color_tertiary: #F4F5F7;
+$color_primary: #344767;
+$color_secondary: #21A7FE;
+$color_tertiary: #B4E29E;
+$color_text_white: #ffffff;
+$color_text_black: #4D4D4D;
+$color_text_gray: #92969A;
+$color_text_green: #6EB80A;
+$color_text_red: #C1102E;
+$color_button_primary: #21A7FE;
+
+//Font Family
+$font_primary: 'Open Sans', sans-serif;
+
+// Font sizes & widths
+$fs_XXL: 48px;
+$fs_XL: 28px;
+$fs_L: 30px;
+$fs_M: 18px;
+$fs_S: 14px;
+$fw_regular: normal;
+$fw_bold: bold;
+
+// Gaps
+$gap_items_60: 60px;
+$gap_items_30: 30px;
+$gap_items_18: 18px;
+$gap_items_20: 20px;
+
+//Padding
+$padding_s: 16px;
+$padding_m: 24px;
+$padding_l: 32px;
+
+//Boxshadows
+$box_shadow: 0px 0px 32px rgba(50, 50, 50, .04);
+
+//Border-Radius
+$border_r_8: 8px;
+$border_r_charts: 14px 14px 0 0;
+
+//Images
+$logo: url('../../assets/img/logo.png');
+$bg_login: url('../../assets/img/bg_login.png');
+
+//Display Sizes
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$xlarge: 1200px;
+$xxlarge: 1400px;

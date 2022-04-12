@@ -1,0 +1,13 @@
+@import url('../css/bootstrap_grid.css');
+@import '../css/bootstrap-utilities.css';
+
+
+@import './variables/variables.scss';
+@import './variables/general_styles';
+
+@import './login/login.scss';
+@import './layout/topheader.scss';
+@import './home/dashboard.scss';
+@import './checkview/checkview.scss';
+@import './checkview/checkviewDetail.scss';
+//----------------------------

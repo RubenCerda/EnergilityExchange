@@ -1,0 +1,48 @@
+//---------------------LOGIN SYLES//
+.fm_login_head{
+    position: relative;
+    margin-bottom: 80px;
+    z-index: 1;
+    &--title{
+        font-size: $fs_XXL;
+        font-weight: $fw_regular;
+        color: $color_text_white;
+    }
+    &--subtitle{
+        font-size: $fs_M;
+        font-weight: $fw_regular;
+        color: $color_text_white;
+    }
+    
+}
+
+.fm_login_card{
+    position: relative;
+    width: 90%;
+    max-width: 497px;
+    max-height: 441px;
+    padding: $padding_l;
+    &__logo{
+        margin-bottom: $gap_items_30;
+    }
+    &__form{
+        gap: $gap_items_20;
+    }
+}
+
+.fm_login_bg{
+    background-image: $bg_login;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 50%;
+    left: 0;
+    z-index: 0;
+}
+
+.fm_login_container{
+    height: 100vh;
+}

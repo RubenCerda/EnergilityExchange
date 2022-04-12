@@ -1,0 +1,11 @@
+.fm_topheader{
+    background-color: $bg_color_primary;
+    height: 60px;
+}
+.fm_th_btn{
+    cursor: pointer;
+    color: $color_primary;
+    p{
+        font-size: $fs_S;
+    }
+}

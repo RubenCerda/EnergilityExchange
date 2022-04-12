@@ -1,0 +1,47 @@
+.fm_homecard{
+    cursor: pointer;
+    font-weight: $fw_bold;
+    gap: 23px;
+    padding: 16px !important;
+    &--font{
+        &--14{
+            font-size: $fs_S;
+            color: $color_text_gray;
+        }
+        &--16{
+            font-size: 16px;
+        }
+        &--18{
+            font-size: $fs_M;
+        }
+        &--34{
+            padding-top: 10px;
+            font-size: 34px;
+            line-height: 34px;
+        }
+    }
+    &--icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: darken($color_text_green,15);
+        border-radius: 50%;
+        background-color: $color_tertiary;
+        height: 60px;
+        width: 60px;
+    }
+    &--head{
+        gap: 24px;
+    }
+    &--nChecks{
+        align-items: center;
+        border-radius: 50%;
+        color: $color_primary;
+        display: flex;
+        background-color: #F4FBFF;
+        height: 28px;
+        justify-content: center;
+        width: 28px;
+        font-size: $fs_M;
+    }
+}
